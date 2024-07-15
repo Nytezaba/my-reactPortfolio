@@ -12,7 +12,7 @@ import { FaGit } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SKILLS } from "../constants";
 
-const Technologies = () => {
+const Skills = () => {
     return (
         <div className="border-b border-neutral-800 pb-24">
             <motion.h1
@@ -20,7 +20,7 @@ const Technologies = () => {
                 initial={{ y: -100, opacity: 0 }}
                 transition={{ duration: 0.6 }}
                 className="my-20 text-center text-4xl">
-                Technologies
+                Skills & Tools
             </motion.h1>
             <motion.div
                 whileInView={{ x: 0, opacity: 1 }}
@@ -82,4 +82,4 @@ const Technologies = () => {
     )
 }
 
-export default Technologies;
+export default Skills;
