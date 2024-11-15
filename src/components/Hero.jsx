@@ -40,7 +40,7 @@ const Hero = () => {
                             className="my-2 max-w-xl py-6 font-light tracking-tighter">
                             {HERO_CONTENT}
                         </motion.p>
-                        <motion.div 
+                        {/* <motion.div 
                             variants={ container(1.5) }
                             initial="hidden"
                             animate="visible"
@@ -61,7 +61,7 @@ const Hero = () => {
                             <AiOutlineDownload className="mr-2 text-2xl" />
                                 Download EN CV
                             </a>
-                        </motion.div>
+                        </motion.div> */}
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">

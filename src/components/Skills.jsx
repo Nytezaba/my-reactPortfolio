@@ -7,7 +7,6 @@ import { SiCodeigniter } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiPostman } from "react-icons/si";
-import { SiSelenium } from "react-icons/si";
 import { FaGit } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SKILLS } from "../constants";
@@ -61,9 +60,6 @@ const Skills = () => {
                     <SiPostman className="text-7xl text-orange-500"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiSelenium className="text-7xl text-green-500"/>
-                </div>
-                <div className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaGit className="text-7xl text-red-400"/>
                 </div>
             </motion.div>
@@ -73,9 +69,11 @@ const Skills = () => {
                 transition={{ duration: 1.5}}
                 className="flex flex-wrap items-center justify-center gap-4 pb-6">
                 {SKILLS.map((data, index) => (
-                    <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-400">
-                        {data.text}
-                    </span>
+                    <div>
+                        <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-400">
+                            {data.text}
+                        </span>
+                    </div>
                 ))}
             </motion.div>
         </div>

@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `Welcome to my portfolio! As a recent graduate, I am excited to share my journey and showcase the skills and projects I have developed in the field of software development. Here, you'll find examples of my work and insights into my technical capabilities.`;
 
-export const ABOUT_TEXT = `I am a recent graduate with a strong foundation in software development, specializing in PHP, Python, SQL, and JavaScript. My academic&Internship journey and hands-on projects have equipped me with experience in frameworks like CodeIgniter, Node.js, and React. I have also honed my skills in automation with basic Selenium, API testing using Postman, and version control with Git. I am passionate about developing innovative and efficient web applications, and I am eager to contribute to dynamic teams and continue growing in the tech industry.`;
+export const ABOUT_TEXT = `I am a recent graduate with a strong foundation in software development, specializing in PHP, Python, SQL, and JavaScript. My academic&Internship journey and hands-on projects have equipped me with experience in frameworks like CodeIgniter, Node.js, and React. I have also honed my skills in API testing using Postman, and version control with Git. I am passionate about developing innovative and efficient web applications, and I am eager to contribute to dynamic teams and continue growing in the tech industry.`;
 
 export const SKILLS = [
   {
@@ -51,11 +51,6 @@ export const SKILLS = [
       icon: "SiPostman",
       color: "text-orange-500",
       text: "Postman"
-  },
-  {
-      icon: "SiSelenium",
-      color: "text-green-500",
-      text: "Selenium"
   },
   {
       icon: "FaGit",
@@ -121,6 +116,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "1/1 Village No.8 Phanthai Norasing Subdistrict, Mueang District, Samut Sakhon Province, Thailand",
-  phoneNo: "+66 9 4641 5761",
+  phoneNo: "094-641-5761",
   email: "ekkaphop.eppt@gmail.com",
 };
